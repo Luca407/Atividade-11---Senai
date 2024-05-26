@@ -55,7 +55,7 @@ int main () {
 			// Cadastro do Segundo Aluno
 			
 			printf("escreva o nome do segundo aluno: \n");
-			scanf("%s", &nome3);
+			scanf("%s", &nome2);
 			
 			printf("escreva as notas do segundo aluno \n");
 			scanf("%d",&nota5);
@@ -74,6 +74,7 @@ int main () {
 			// Cadastro do Terceiro Aluno
 			
 			printf("escreva o nome do terceiro aluno: \n");
+			scanf("%s", &nome3);
 			
 			printf("escreva as notas do terceiro aluno\n");
 			scanf("%d",&nota9);
@@ -92,7 +93,7 @@ int main () {
 			// Cadastro do Quarto Aluno
 			
 			printf("escreva o nome do quarto aluno: \n");
-			scanf("%s", &nome3);
+			scanf("%s", &nome4);
 			
 			printf("escreva as notas do quarto aluno\n");
 			scanf("%d",&nota13);
@@ -111,7 +112,7 @@ int main () {
 			// Cadastro do Quinto Aluno
 			
 			printf("escreva o nome do quinto aluno: ");
-			scanf("%s", &nome3);
+			scanf("%s", &nome5);
 			
 			printf("escreva as notas do quinto aluno");
 			scanf("%d",&nota17);
