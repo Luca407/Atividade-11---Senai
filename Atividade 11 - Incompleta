@@ -10,11 +10,11 @@ int main () {
 		system("cls");
 		printf("MENU \n\n");
 	
-		printf("1 cadastro de alunos\n");
+		printf("1- Cadastro das Notas dos(as) Alunos(as)\n");
 		
-		printf("2 alteracao de notas\n");
+		printf("2- Alteracao das Notas\n");
 		
-		printf("3 SAIR\n\n");
+		printf("3- SAIR\n\n");
 		
 		printf("escolha uma opcao: ");
 		scanf("%i", &opcao);
@@ -31,99 +31,99 @@ int main () {
 			double nota13, nota14, nota15, nota16;
 			double nota17, nota18, nota19, nota20;
 			
-			printf("CADASTRO DE ALUNOS \n\n");
+			printf("CADASTRO DE NOTAS DOS(AS) ALUNOS(AS) \n\n");
 			
-			// Cadastro do Primeiro Aluno
+			// Cadastro do Primeiro(a) Aluno(a)
 			
-			printf("escreva o nome do primeiro aluno: \n");	
+			printf("escreva o nome do(a) primeiro(a) aluno(a): \n");	
 			scanf("%s", &nome);
 			
-			printf("escreva as notas do primeiro aluno\n");
+			printf("escreva as notas do(a) primeiro(a) aluno(a)\n");
 			scanf("%d",&nota1);
 			
-			printf("escreva as notas do primeiro aluno\n");
+			printf("escreva as notas do(a) primeiro(a) aluno(a)\n");
 			scanf("%d",&nota2);
 			
-			printf("escreva as notas do primeiro aluno\n");
+			printf("escreva as notas do(a) primeiro(a) aluno(a)\n");
 			scanf("%d",&nota3);
 			
-			printf("escreva as notas do primeiro aluno\n");
+			printf("escreva as notas do(a) primeiro(a) aluno(a)\n");
 			scanf("%d",&nota4);
 			
 			system("pause");
 			
-			// Cadastro do Segundo Aluno
+			// Cadastro do Segundo(a) Aluno(a)
 			
-			printf("escreva o nome do segundo aluno: \n");
+			printf("escreva o nome do(a) segundo(a) aluno(a): \n");
 			scanf("%s", &nome2);
 			
-			printf("escreva as notas do segundo aluno \n");
+			printf("escreva as notas do(a) segundo(a) aluno(a) \n");
 			scanf("%d",&nota5);
 			
-			printf("escreva as notas do segundo aluno\n");
+			printf("escreva as notas do(a) segundo(a) aluno(a)\n");
 			scanf("%d",&nota6);
 			
-			printf("escreva as notas do segundo aluno\n");
+			printf("escreva as notas do(a) segundo(a) aluno(a)\n");
 			scanf("%d",&nota7);
 			
-			printf("escreva as notas do segundo aluno\n");
+			printf("escreva as notas do(a) segundo(a) aluno(a)\n");
 			scanf("%d",&nota8);
 			
 			system("pause");
 			
-			// Cadastro do Terceiro Aluno
+			// Cadastro do(a) Terceiro(a) Aluno(a)
 			
-			printf("escreva o nome do terceiro aluno: \n");
+			printf("escreva o nome do(a) terceiro(a) aluno(a): \n");
 			scanf("%s", &nome3);
 			
-			printf("escreva as notas do terceiro aluno\n");
+			printf("escreva as notas do(a) terceiro(a) aluno(a)\n");
 			scanf("%d",&nota9);
 			
-			printf("escreva as notas do terceiro aluno\n");
+			printf("escreva as notas do(a) terceiro(a) aluno(a)\n");
 			scanf("%d",&nota10);
 			
-			printf("escreva as notas do terceiro aluno\n");
+			printf("escreva as notas do(a) terceiro(a) aluno(a)\n");
 			scanf("%d",&nota11);
 			
-			printf("escreva as notas do terceiro aluno\n");
+			printf("escreva as notas do(a) terceiro(a) aluno(a)\n");
 			scanf("%d",&nota12);
 			
 			system("pause");
 			
-			// Cadastro do Quarto Aluno
+			// Cadastro do(a) Quarto(a) Aluno(a)
 			
-			printf("escreva o nome do quarto aluno: \n");
+			printf("escreva o nome do(a) quarto(a) aluno(a): \n");
 			scanf("%s", &nome4);
 			
-			printf("escreva as notas do quarto aluno\n");
+			printf("escreva as notas do(a) quarto(a) aluno(a)\n");
 			scanf("%d",&nota13);
 		
-			printf("escreva as notas do quarto aluno\n");
+			printf("escreva as notas do(a) quarto(a) aluno(a)\n");
 			scanf("%d",&nota14);
 		
-			printf("escreva as notas do quarto aluno\n");
+			printf("escreva as notas do(a) quarto(a) aluno(a):\n");
 			scanf("%d",&nota15);
 		
-			printf("escreva as notas do quarto aluno\n");
+			printf("escreva as notas do(a) quarto(a) aluno(a)\n");
 			scanf("%d",&nota16);
 			
 			system("pause");
 			
-			// Cadastro do Quinto Aluno
+			// Cadastro do(a) Quinto(a) Aluno(a)
 			
-			printf("escreva o nome do quinto aluno: ");
+			printf("escreva o nome do(a) quinto(a) aluno(a): ");
 			scanf("%s", &nome5);
 			
-			printf("escreva as notas do quinto aluno");
+			printf("escreva as notas do(a) quinto(a) aluno(a):\n");
 			scanf("%d",&nota17);
 			
-			printf("escreva as notas do quinto aluno");
+			printf("escreva as notas do(a) quinto(a) aluno(a):\n");
 			scanf("%d",&nota18);
 			
-			printf("escreva as notas do quinto aluno");
+			printf("escreva as notas do(a) quinto(a) aluno(a):\n");
 			scanf("%d",&nota19);
 			
-			printf("escreva as notas do quinto aluno");
+			printf("escreva as notas do(a) quinto(a) aluno(a):\n");
 			scanf("%d",&nota20);
 
 			double mediaAluno1 = (nota1 + nota2 + nota3 + nota4)/4;
